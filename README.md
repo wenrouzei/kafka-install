@@ -9,12 +9,13 @@ https://archive.apache.org/dist/kafka/2.8.1/kafka_2.13-2.8.1.tgz
 
 ### 启动
 使用`window PowerShell`
-启动zookeeper
+
+#### 启动zookeeper
 ```
 cd D:\kafka_2.13-2.8.1\bin\windows
 .\zookeeper-server-start.bat ..\..\config\zookeeper.properties
 ```
-启动kafka
+#### 启动kafka
 ```
 cd D:\kafka_2.13-2.8.1\bin\windows
  .\kafka-server-start.bat ..\..\config\server.properties
